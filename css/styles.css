@@ -23,6 +23,8 @@ body {
     background-color: #fbfbfb;
     font-family: 'Lato', sans-serif;
     font-size: 18px;
+    display: flex;
+    justify-content: center;
 }
 
 header {
@@ -70,7 +72,7 @@ a {
 #inicio, #contacto {
     max-width: 1200px;
     min-height: 100vh;
-    padding: 100px 20px 20px;
+    padding: 100px 0 20px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -132,6 +134,9 @@ h2 {
 
 .iconos ul {
     list-style: none;
+    margin-top: 30px;
+    gap: 70px;
+    display: flex;
 }
 
 .iconos li {
@@ -141,8 +146,8 @@ h2 {
 
 .iconos img {
     width: 60px;
-    margin: 40px 20px;
-    padding: 5px;
+    /* margin: 40px 20px; */
+    /* padding: 5px; */
     }
 
 .iconos img:hover {
